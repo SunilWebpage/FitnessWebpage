@@ -1,0 +1,18 @@
+.text-1 input{
+    @apply  border border-black h-10 w-[250px] max-md:w-[190px]
+
+}
+
+.text-2 input{
+    @apply  border border-black w-[520px] h-10 max-md:w-[350px]
+
+}
+.text-3 input{
+    @apply  border border-black w-[520px] h-20 max-md:w-[350px]
+
+}
+.text-1{
+    @apply space-y-5
+
+}
+

@@ -1,0 +1,6 @@
+.filter-cont{
+    @apply flex justify-around px-10  border-gray-700 border-b
+}
+.btn-style{
+
+}

@@ -1,0 +1,6 @@
+.our-class{
+    @apply bg-bg-42 py-28 text-center 
+}
+.our-class h1{
+    @apply font-bold text-6xl text-gray-500
+}

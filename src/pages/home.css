@@ -1,0 +1,76 @@
+.text-div{
+    @apply   flex-col flex-wrap text-xl m-auto space-y-5 text-gray-600 text-center items-center hidden max-2xl:flex
+}
+.text-div-2{
+    @apply  flex flex-col flex-wrap text-xl m-auto space-y-5 text-gray-600 text-center items-center absolute top-[500px] left-[700px] max-2xl:hidden
+}
+.text-div-2 h1{
+    @apply font-mono font-bold text-6xl tracking-widest
+}
+.text-div h1{ 
+    @apply font-mono font-bold text-6xl tracking-widest
+} 
+.text-div button{
+    @apply border border-black px-8 py-2
+}
+.text-div-2 button{
+    @apply border border-black px-8 py-2
+}
+.card-img{
+    @apply flex justify-between gap-8
+}
+.home-cont-3{
+    @apply  bg-white/90 relative h-fit flex flex-col  gap-8 p-10 text-gray-600 top-[-200px]
+}
+.home-cont-3 p{
+@apply w-[300px] tracking-widest font-thin
+}
+.h-p{
+    @apply space-y-3
+}
+.h-p h1{
+    @apply text-2xl
+}
+.home-cont-3 button{
+    @apply border border-black px-5 py-1
+}
+.our-story{
+    @apply flex flex-col items-center space-y-5 py-20 text-gray-600 max-md:items-start
+}
+.our-story p{
+    @apply w-[700px] text-center leading-8 font-thin max-md:text-start max-md:w-[300px]
+}
+.our-story button{
+    @apply border border-black px-5 py-1
+}
+.our-loc{
+    @apply  h-full w-[300px] place-items-start
+}
+.loc-box{
+    @apply bg-white/95 space-y-10 w-[600px] p-20 text-gray-600 max-md:w-0 max-md:flex max-md:flex-col max-md:p-0 max-md:py-10
+
+}
+.loc-box p {
+    @apply leading-8 tracking-widest w-[300px] max-md:w-[200px] flex flex-wrap
+}
+.loc-box h1{
+    @apply leading-10 text-2xl 
+}
+.text-slider-cont{
+    @apply  bg-foot-bg  flex 
+}
+.slider-card1{
+    @apply space-y-10   
+}
+.slider-card2{
+@apply  w-full
+}
+.watch-us{
+    @apply flex flex-col items-center py-20 space-y-10 max-md:w-[200px] max-md:items-start max-md:py-9
+}
+.watch-us h1{
+@apply font-extrabold text-gray-600 text-4xl 
+}
+.watch-us p{ 
+    @apply w-[500px] text-center font-light max-md:w-[200px] max-md:text-start 
+}

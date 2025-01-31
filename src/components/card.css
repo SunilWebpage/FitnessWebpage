@@ -1,0 +1,12 @@
+.card-cont{
+    @apply border  h-max w-fit flex flex-col flex-wrap
+}
+.card-h{
+    @apply border-b p-5 text-xl
+}
+.card-p{
+    @apply p-5 space-y-3 font-light
+}
+.card-btn{
+    @apply bg-btn-col px-5 w-28 text-center text-white  font-light py-3
+}

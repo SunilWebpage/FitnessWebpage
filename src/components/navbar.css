@@ -1,0 +1,40 @@
+.nav-top{
+    @apply flex justify-between px-28 fixed z-50 w-full bg-white
+}
+.nav-btn button{
+@apply hover:text-btn-col
+}
+.Side div{
+@apply bg-black w-6 h-[3px] m-1 flex cursor-pointer
+}
+
+.sidemenu-trigger {
+    @apply absolute p-5;
+    z-index: 10;
+    &.active {
+        div:nth-child(1){
+            transform: rotate(320deg);
+            transform-origin: right;
+        }
+        div:nth-child(2){
+            display: none
+        }
+        div:nth-child(3){
+            transform: rotate(-320deg) translate(1px, 0px);
+            transform-origin: bottom;
+        }
+    }
+}
+
+.sidemenu {
+    
+@apply absolute w-[400px] ;
+    transform: translateX(-100%);
+    transition: all 300ms ease-in-out;
+    background:white;
+
+    &.active {
+        transform: translate(0,0);
+        transition: all 300ms ease-in-out;
+    }
+}
