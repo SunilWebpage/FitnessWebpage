@@ -1,6 +1,8 @@
 import React from "react";
 import Best from "../components/best";
 import useScrollToTop from "../components/useScrollToTop";
+import Contact from "../components/contact";
+import Footer from "./footer";
 
 const bestData = [
   {
@@ -47,6 +49,12 @@ export default function Plans() {
             <Best props={val} key={i} />
           ))}
         </div>
+      </div>
+      <div>
+        <Contact />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );

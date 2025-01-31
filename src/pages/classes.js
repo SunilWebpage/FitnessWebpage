@@ -2,7 +2,8 @@ import React from "react";
 import "./classes.css";
 import { Filter } from "../components/filter";
 import useScrollToTop from "../components/useScrollToTop";
-
+import Contact from "../components/contact";
+import Footer from "./footer";
 export default function Classes() {
   useScrollToTop();
   return (
@@ -20,6 +21,12 @@ export default function Classes() {
 
       <div className="p-20">
         <Filter />
+      </div>
+      <div>
+        <Contact />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );

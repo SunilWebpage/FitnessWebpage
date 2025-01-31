@@ -1,4 +1,6 @@
 import React from "react";
+import Contact from "./contact";
+import Footer from "../pages/footer";
 
 export default function About() {
   return (
@@ -85,6 +87,12 @@ export default function About() {
             />
           </div>
         </div>
+      </div>
+      <div>
+        <Contact />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );

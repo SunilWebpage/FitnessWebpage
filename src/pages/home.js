@@ -4,7 +4,8 @@ import Card from "../components/card-con";
 import Slider from "../components/slider";
 import Card2 from "../components/card2";
 import useScrollToTop from "../components/useScrollToTop";
-
+import Contact from "../components/contact";
+import Footer from "./footer";
 const cardsData2 = [
   {
     cardImage2:
@@ -179,6 +180,12 @@ function Home() {
         {cardsData2.map((val, i) => (
           <Card2 props={val} key={i} />
         ))}
+      </div>
+      <div>
+        <Contact />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );

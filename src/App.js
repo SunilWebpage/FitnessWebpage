@@ -21,9 +21,19 @@ function App() {
         <Route path="classes" element={<Classes />} />
         <Route path="Plans" element={<Plans />} />
         <Route path="About" element={<About />} />
+        <Route path="contact" element={<Contact />} />
+        <Route
+          path="*"
+          element={
+            <div className="notfound">
+              <h2>404</h2>
+              <div>
+                <p>Page not found</p>
+              </div>
+            </div>
+          }
+        />
       </Routes>
-      <Contact />
-      <Footer />
     </>
   );
 }

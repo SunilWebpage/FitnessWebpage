@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.notfound {
+    padding-top: 12rem;
+    text-align: center;
+    h2{
+        color: grey;
+    }
+}
